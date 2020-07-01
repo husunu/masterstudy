@@ -1,0 +1,50 @@
+/* line 4, assets/scss/vc_modules/image_box/style_2.scss */
+.stm_image_box.stm_image_box__style_2 {
+  display: flex;
+  align-items: flex-start; }
+  /* line 8, assets/scss/vc_modules/image_box/style_2.scss */
+  .stm_image_box.stm_image_box__style_2 img {
+    margin-right: 30px; }
+  /* line 12, assets/scss/vc_modules/image_box/style_2.scss */
+  .stm_image_box.stm_image_box__style_2 .stm_image_box__image {
+    margin: 0 35px 0 0; }
+  /* line 16, assets/scss/vc_modules/image_box/style_2.scss */
+  .stm_image_box.stm_image_box__style_2 .stm_image_box__content {
+    max-width: 430px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 28px; }
+    /* line 22, assets/scss/vc_modules/image_box/style_2.scss */
+    .stm_image_box.stm_image_box__style_2 .stm_image_box__content h3 {
+      margin: 0 0 20px;
+      font-size: 28px;
+      line-height: 36px; }
+  /* line 29, assets/scss/vc_modules/image_box/style_2.scss */
+  .stm_image_box.stm_image_box__style_2 .stm_image_box__textarea {
+    max-width: 380px;
+    margin: 0 0 30px; }
+
+@media (max-width: 1024px) {
+  /* line 36, assets/scss/vc_modules/image_box/style_2.scss */
+  .stm_image_box {
+    flex-wrap: wrap; }
+    /* line 39, assets/scss/vc_modules/image_box/style_2.scss */
+    .stm_image_box .stm_image_box__image {
+      width: 100%;
+      margin: 0 0 30px; } }
+
+@media (max-width: 769px) {
+  /* line 47, assets/scss/vc_modules/image_box/style_2.scss */
+  .stm_image_box {
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center; }
+    /* line 53, assets/scss/vc_modules/image_box/style_2.scss */
+    .stm_image_box .stm_image_box__image {
+      text-align: center; } }
+
+@media (max-width: 515px) {
+  /* line 60, assets/scss/vc_modules/image_box/style_2.scss */
+  .stm_image_box {
+    padding: 15px 15px 30px; } }

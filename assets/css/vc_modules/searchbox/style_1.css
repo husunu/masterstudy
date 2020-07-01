@@ -1,0 +1,29 @@
+.stm_searchbox {
+  margin: 0 0 40px;
+}
+
+.stm_searchbox form {
+  position: relative;
+  max-width: 610px;
+  margin: 0 auto;
+}
+
+.stm_searchbox form input {
+  padding-left: 30px!important;
+  height: 60px;
+  padding-right: 50px!important;
+}
+
+.stm_searchbox form button[type=submit] {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  line-height: 63px;
+  right: 0;
+  color: #0050b4;
+  font-size: 18px;
+  border: 0;
+  background-color: transparent;
+}
+/*# sourceMappingURL=../sourcemap/style_1.css.map */

@@ -1,0 +1,18 @@
+<?php
+$atts = vc_map_get_attributes($this->getShortcode(), $atts);
+extract($atts);
+
+$main_class = $atts['main_class'] = stm_lms_generate_uniq_id($atts);
+$styles = '';
+if(!empty($icon_bg)) {
+	$styles = ".{$main_class} .stm_image_box__icon {
+        background-color: {$icon_bg};
+    }";
+}
+stm_module_styles('image_box', $style, array(), $styles);
+
+$atts['image_size'] = (!empty($image_size)) ? $image_size : '290x250';
+
+$style = $atts['style'] = (empty($style)) ? 'style_1' : $style;
+
+stm_load_vc_element('image_box', $atts, $style);
