@@ -14,17 +14,16 @@ if (is_user_logged_in()):
 		stm_lms_register_script('become_instructor');
 	}
 	?>
-<a href="#" style="pointer-events: none"
-       class="stm_lms_bi_link normal_font"
-       data-target=".<?php echo esc_attr($target); ?>"
-       data-lms-modal="<?php echo esc_attr($modal); ?>">
+<a href="/blog/" 
+        class="stm_lms_bi_link normal_font"
+    >
         <i class="lnr lnr-users secondary_color"></i>
       <!--  <span><?php esc_html_e('Become an Instructor', 'masterstudy'); ?></span>-->
         <span><?php esc_html_e('Members contribution', 'masterstudy'); ?></span>
     </a>
 <?php else: ?>
 	<?php if (class_exists('STM_LMS_User')): ?>
-        <a href="<?php echo esc_url(STM_LMS_User::login_page_url()); ?>" style="pointer-events: none"
+        <a href="<?php echo esc_url(STM_LMS_User::login_page_url()); ?>" 
            class="stm_lms_bi_link normal_font">
             <i class="lnr lnr-bullhorn secondary_color"></i>
            <!-- <span><?php esc_html_e('Become an Instructor', 'masterstudy'); ?></span>-->

@@ -10,7 +10,7 @@ if (function_exists('stm_lms_register_style')) {
 }
 ?>
 
-<a href="#"
+<a href="#" style="display: none"
    class="stm_lms_log_in"
    data-text="<?php esc_html_e('Login', 'masterstudy'); ?>"
    data-target=".stm-lms-modal-login"
